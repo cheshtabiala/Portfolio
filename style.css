@@ -1,0 +1,76 @@
+html,body{
+    padding:0;
+    margin:0;
+}
+
+
+.navbar{
+    background-color: aquamarine;
+    padding:12px 14px;
+}
+
+.navbar a{
+    margin-right: 4px;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+    padding:12px 14px;
+
+}
+
+.about {
+    margin-top:50px;
+}
+.about .content{
+    display:flex;
+}
+.about h1{
+    text-align: center;
+}
+.about img{
+    max-width:400px;
+    margin-left:30px;
+}
+.about p{
+    font-size:18px;
+    margin-left:20px;
+}
+.about button{
+    max-width: 100px;
+    max-height:70px;
+    margin-left:20px;
+    color:blue;
+    background-color:cadetblue;
+}
+
+
+.card{
+    padding:30px 30px;
+    border:solid black;
+    background-color: bisque;
+    margin:10px 60px;
+}
+.project h1{
+    text-align:center;
+}
+.project .card{
+    padding:30px 30px;
+}
+.contact h1{
+    text-align:center;
+}
+.input{
+    margin:0px 300px;
+    padding:2px;
+    margin-bottom:5px
+}
+.contact button{
+    display:center;
+ 
+}
+/*.service h1{
+    text-align:center;
+}
+.container{
+    display:flex;
+}
